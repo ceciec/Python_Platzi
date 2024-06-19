@@ -1,4 +1,5 @@
 import random
+
 options = ("piedra", "papel", "tijera")
 
 computer_wins = 0
