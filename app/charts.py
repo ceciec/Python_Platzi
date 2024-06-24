@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def generate_bar_chart(name, labels, values):
@@ -19,7 +19,7 @@ def generate_pie_chart(labels, values):
     ax.axis('equal')
     ax.set_title('Pie Chart Example')
     #para no detener el programa y guardar esa imagen
-    plt.savefig('./imgs/pie.png')
+    plt.savefig('./imgs/chart_pie.png')
     plt.close()
 
 

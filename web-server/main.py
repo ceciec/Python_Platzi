@@ -14,6 +14,8 @@ def get_list():
         <h1>Mi nombre es Cecilia</h1>
         <p>Me gusta mucho aprender programacion.</p>
     """
+#en la terminal correr: "uvicorn main:app --reload"
+
 
 def run():
     store.get_categories()
